@@ -1,4 +1,11 @@
 { "compressionlevel":-1,
+ "editorsettings":
+    {
+     "export":
+        {
+         "target":"."
+        }
+    },
  "height":16,
  "infinite":false,
  "layers":[
@@ -69,8 +76,81 @@
  "tileheight":32,
  "tilesets":[
         {
+         "columns":16,
          "firstgid":1,
-         "source":"tiles\/rc3-mullana-floor-wall.tsx"
+         "image":"tiles\/3rd-party\/rc3-mullana-floor-wall.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"rc3-mullana-floor-wall",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":1,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":2,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":3,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":4,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":5,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":6,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
